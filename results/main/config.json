@@ -1,0 +1,15 @@
+{
+ "out": "results",
+ "data_dir": null,
+ "synthetic": false,
+ "tickers": "AAPL,MSFT,NVDA,AMZN,JPM,XOM,JNJ,TSLA,SPY,QQQ,IWM,EEM,^GDAXI,XU100.IS,TLT,GLD,USO,EURUSD=X,BTC-USD,ETH-USD",
+ "end": "2026-10-12",
+ "years": 3.0,
+ "init_train": 252,
+ "test_len": 63,
+ "gap": 5,
+ "n_iter": 12,
+ "inner_splits": 3,
+ "models": "KNN,RF,GBM,ANN",
+ "leak_control": false
+}

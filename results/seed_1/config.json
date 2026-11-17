@@ -1,0 +1,20 @@
+{
+ "end": "2026-10-12",
+ "years": 3.0,
+ "start": null,
+ "init_train": 252,
+ "test_len": 63,
+ "gap": 5,
+ "n_iter": 12,
+ "inner_splits": 3,
+ "models": [
+  "KNN",
+  "RF",
+  "GBM",
+  "ANN"
+ ],
+ "seed": 1,
+ "with_default": false,
+ "data_dir": "/home/claude/r2/data/repro",
+ "synthetic": false
+}
